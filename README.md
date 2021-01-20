@@ -20,7 +20,7 @@ Solution: filter dangerous characters and use pre-compilation
 
 5.  Replace Referer
 
-   ![](img/1.png)
+   ![](/img/1.png)
 
 Conference Office
 
