@@ -16,9 +16,11 @@ Solution: filter dangerous characters and use pre-compilation
 
 3. Log in to the background to get the cookie ( poc at the end of the text )
 
-4. Replace the cookie with the domain name of Referer
+4. Replace cookie 
 
-   ![](img\1.png)
+5.  Replace Referer
+
+   ![](img/1.png)
 
 Conference Office
 
