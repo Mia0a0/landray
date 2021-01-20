@@ -17,9 +17,9 @@ I. Test process:
 
 http://demo.landray.com.cn:80
 
-![1](\img\1.png)
+![1](img\1.png)
 
 ### POC：
 
-![2](\img\2.jpg)
+![2](img\2.jpg)
 
