@@ -24,7 +24,7 @@ Solution: filter dangerous characters and use pre-compilation
 
 Conference Office
 
-## **Two** **,** **Success** **Stories** **(** **3** **Ge** **)** **:**
+## **Two** **,** **Success** **Stories** 
 
 
 Vulnerability link :
